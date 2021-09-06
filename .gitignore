@@ -31,3 +31,5 @@ bin
 bin.zip
 *.backup
 .gradle
+# Ignore Gradle build output directory
+build
