@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "sheep-in-deep-space"
-include("app", "list", "utilities")
+include("sheep-in-deep-space-main")
