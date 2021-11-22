@@ -4,7 +4,6 @@
 
 plugins {
     `kotlin-dsl`
-    application
 }
 
 repositories {
@@ -14,10 +13,5 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
-    implementation(project(":sheep-in-deep-space-core"))
 }
 
-application {
-    // Define the main class for the application.
-    mainClass.set("dev.drf.deep.space.sheep.AppKt")
-}

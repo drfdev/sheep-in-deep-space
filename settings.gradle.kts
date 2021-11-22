@@ -9,3 +9,4 @@
 
 rootProject.name = "sheep-in-deep-space"
 include("sheep-in-deep-space-main")
+include("sheep-in-deep-space-core")

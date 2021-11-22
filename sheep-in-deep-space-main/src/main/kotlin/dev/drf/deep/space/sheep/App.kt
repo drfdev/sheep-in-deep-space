@@ -3,6 +3,9 @@
  */
 package dev.drf.deep.space.sheep
 
+import dev.drf.deep.space.sheep.core.Sheep
+
 fun main() {
-    println("Sheep in the deep dark space...")
+    println("dev.drf.deep.space.sheep.core.Sheep in the deep dark space...")
+    val sheep = Sheep()
 }
