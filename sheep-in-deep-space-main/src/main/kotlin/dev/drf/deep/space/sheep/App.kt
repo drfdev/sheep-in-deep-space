@@ -3,9 +3,17 @@
  */
 package dev.drf.deep.space.sheep
 
-import dev.drf.deep.space.sheep.core.Sheep
+import dev.drf.deep.space.sheep.core.loadConfig
+import dev.drf.deep.space.sheep.core.loadGameRunner
+import dev.drf.deep.space.sheep.core.model.Sheep
+import dev.drf.deep.space.sheep.core.prepareLoader
 
 fun main() {
-    println("dev.drf.deep.space.sheep.core.Sheep in the deep dark space...")
+    val loader = prepareLoader()
+    val config = loadConfig(loader)
+    val runner = loadGameRunner(loader, config)
+    runner.runGame()
+
+    println("dev.drf.deep.space.sheep.core.model.Sheep in the deep dark space...")
     val sheep = Sheep()
 }
