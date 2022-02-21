@@ -10,4 +10,12 @@ class Wallet {
     fun addMoney(currency: Currency, count: Long) {
         money[currency]?.addAndGet(count)
     }
+
+    fun getMoney(currency: Currency): Long? {
+        return money[currency]?.get()
+    }
+
+    fun checkCurrencyExists(currency: Currency): Boolean {
+        return money[currency] != null
+    }
 }
