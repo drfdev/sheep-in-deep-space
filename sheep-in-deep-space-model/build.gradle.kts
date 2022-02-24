@@ -14,10 +14,6 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
 
-    // project
-    implementation(project(":sheep-in-deep-space-model"))
-    implementation(project(":sheep-in-deep-space-transaction"))
-
     // tests
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.5.21")

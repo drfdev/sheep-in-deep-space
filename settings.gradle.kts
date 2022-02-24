@@ -10,3 +10,5 @@
 rootProject.name = "sheep-in-deep-space"
 include("sheep-in-deep-space-main")
 include("sheep-in-deep-space-core")
+include("sheep-in-deep-space-model")
+include("sheep-in-deep-space-transaction")
